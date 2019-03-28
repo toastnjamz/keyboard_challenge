@@ -52,7 +52,7 @@ namespace Keyboard.cs
         }
 
         // Prints a visual keyboard to the screen (as pictured above)
-        public static void Print(char[] array)
+        private static void Print(char[] array)
         {
             for (int i = 0; i < array.Length; i++)
             {
